@@ -4,63 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Kenzie Clone</title>
+    <title>Blog Kenzie</title>
     <meta name="author" content="Viktor L. Santos">
     <meta name="description" content="Blog Kenzie Clone">
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    * {
-        list-style: none;
-        text-decoration: none;
-        color: black;
-        font-family: 'Montserrat';
-        box-sizing: content-box;
-    }
-    header {
-        margin: 0;
-        background-color: white;
-        display: flex; 
-        align-items: center;
-        justify-content: space-between;
-        height: 100px;
-        width: 100%;
-        position: fixed;
-        font-size: 14px;
-        box-shadow: 0 4px 4px -2px rgba(0, 0, 0, .3);
-    }
-    header ul li{
-        text-align: justify;
-        margin: 20px;
-        display: inline;
-    }
-    header nav ul li a p{
-        width: 40px;
-    }
-    header img {
-        margin: 20px;
-    }
-    header div {
-        background-color: blue;
-        width: 300px;
-        height: 100px;
-        cursor: pointer;
-    }
-    header div a{
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-left: auto;
-        padding: 1.7rem 1.5rem;
-        color: white;
-        font-size: 18px;
-        text-align: left;
-        font-family: 'Montserrat';
-        font-weight: 700;
-    }
-    main {
-        padding: 130px 10px 10px 10px;
-    }
-</style>
+
 <body>
     <header>
         <img src="https://kenzie.com.br/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75" alt="Kenzie Academy"> 
@@ -83,46 +32,48 @@
     </header>
     <main>
         <h1>Últimas Postagens do Blog Kenzie</h1>
-        <article>
-            <h2 style="color: blue; ">COMANDOS CMD WINDOWS: O QUE SÃO E QUAIS OS PRINCIPAIS</h2>
-            <p>
-                O prompt de comando CMD, é um recurso nativo do SO Windows que é utilizado para a interação com o sistema. 
-                Este artigo irá explorar o que é CMD, como ver a lista de comandos no CMD e como executar comandos no CMD.       
-            </p>
-            <p>
-                <em><strong>Escrito Por:</strong> Brunno Kriger | 22/03/2023 | 5 Minutos de Leitura</em>
-                <br>
-                Acesse a Matéria Completa <em><a href="https://kenzie.com.br/blog/comandos-cmd-windows/" target="_blank" style="text-decoration: underline;">Aqui</a></em>
-            </p>
-        </article>
-
-        <article>
-            <h2 style="color: blue; ">TYPESCRIPT: O QUE É, COMO COMEÇAR E QUAIS SÃO AS VANTAGENS?</h2>
-            <p>
-                Mais conhecido como um superset do Javascript, ou seja, um conjunto de ferramentas, o TypeScript foi 
-                criado com o objetivo de incluir recursos que não estão presentes no JS. Vamos mostrar como ele pode 
-                colaborar com os seus projetos, e quais são seus principais benefícios.        
-            </p>
-            <p>
-                <em><strong>Escrito Por:</strong> Ugo Roveda | 02/03/2023 | 10 Minutos de Leitura</em>
-                <br>
-                Acesse a Matéria Completa <em><a href="https://kenzie.com.br/blog/typescript/" target="_blank" style="text-decoration: underline;">Aqui</a></em>
-            </p>
-        </article>
-
-        <article>
-            <h2 style="color: blue; ">COMO APRENDER A PROGRAMAR DO ZERO: PASSO A PASSO</h2>
-            <p>
-                Quer entrar em um mercado de trabalho que não para de crescer, mas não sabe por onde começar? 
-                Pela programação. A programação é uma das áreas que demandará quase 800 mil profissionais até 2025.  
-                Acompanhe esse passo a passo até o final para aprender como programar do zero.        
-            </p>
-            <p>
-                <em><strong>Escrito Por:</strong> Daniel Kriger | 27/07/2022 | 1 Minutos de Leitura</em>
-                <br>
-                Acesse a Matéria Completa <em><a href="https://kenzie.com.br/blog/como-aprender-a-programar-2/" target="_blank" style="text-decoration: underline;">Aqui</a></em>
-            </p>
-        </article>
+        <div>
+            <article>
+                <h2 style="color: blue; ">COMANDOS CMD WINDOWS: O QUE SÃO E QUAIS OS PRINCIPAIS</h2>
+                <p>
+                    O prompt de comando CMD, é um recurso nativo do SO Windows que é utilizado para a interação com o sistema. 
+                    Este artigo irá explorar o que é CMD, como ver a lista de comandos no CMD e como executar comandos no CMD.       
+                </p>
+                <p>
+                    <em><strong>Escrito Por:</strong> Brunno Kriger | 22/03/2023 | 5 Minutos de Leitura</em>
+                    <br>
+                    Acesse a Matéria Completa <em><a href="https://kenzie.com.br/blog/comandos-cmd-windows/" target="_blank" style="text-decoration: underline;">Aqui</a></em>
+                </p>
+            </article>
+    
+            <article>
+                <h2 style="color: blue; ">TYPESCRIPT: O QUE É, COMO COMEÇAR E QUAIS SÃO AS VANTAGENS?</h2>
+                <p>
+                    Mais conhecido como um superset do Javascript, ou seja, um conjunto de ferramentas, o TypeScript foi 
+                    criado com o objetivo de incluir recursos que não estão presentes no JS. Vamos mostrar como ele pode 
+                    colaborar com os seus projetos, e quais são seus principais benefícios.        
+                </p>
+                <p>
+                    <em><strong>Escrito Por:</strong> Ugo Roveda | 02/03/2023 | 10 Minutos de Leitura</em>
+                    <br>
+                    Acesse a Matéria Completa <em><a href="https://kenzie.com.br/blog/typescript/" target="_blank" style="text-decoration: underline;">Aqui</a></em>
+                </p>
+            </article>
+    
+            <article>
+                <h2 style="color: blue; ">COMO APRENDER A PROGRAMAR DO ZERO: PASSO A PASSO</h2>
+                <p>
+                    Quer entrar em um mercado de trabalho que não para de crescer, mas não sabe por onde começar? 
+                    Pela programação. A programação é uma das áreas que demandará quase 800 mil profissionais até 2025.  
+                    Acompanhe esse passo a passo até o final para aprender como programar do zero.        
+                </p>
+                <p>
+                    <em><strong>Escrito Por:</strong> Daniel Kriger | 27/07/2022 | 1 Minutos de Leitura</em>
+                    <br>
+                    Acesse a Matéria Completa <em><a href="https://kenzie.com.br/blog/como-aprender-a-programar-2/" target="_blank" style="text-decoration: underline;">Aqui</a></em>
+                </p>
+            </article>
+        </div>
     </main>
 
     <footer style="margin: auto 400px; padding: 10px; text-align: justify; border: 5px solid rgba(0, 0, 0, .4);">
