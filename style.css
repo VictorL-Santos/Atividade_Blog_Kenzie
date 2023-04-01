@@ -1,11 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
 * {
   list-style: none;
   text-decoration: none;
   color: black;
-  font-family: "Montserrat";
+  font-family: "Roboto";
   box-sizing: content-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 header {
@@ -14,18 +21,17 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 100px;
-  width: 100%;
+  width: 100vw;
   position: fixed;
   font-size: 14px;
   box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.3);
 }
 header nav ul li {
-  text-align: justify;
-  margin: 20px;
-  display: inline;
-}
-header nav ul li a p {
-  width: 40px;
+  text-align: center;
+  font-size: 16px;
+  margin: 23px;
+  display: inline-block;
+  width: 80px;
 }
 header img {
   margin: 20px;
