@@ -13,19 +13,19 @@
 
 <body>
     <header>
-        <img src="https://kenzie.com.br/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75" alt="Kenzie Academy"> 
+        <img class="logo" src="./Logo.svg" alt="Kenzie Academy"> 
         <nav>
             <ul>
-                <li><a href="https://kenzie.com.br/quem-somos" target="_blank">Quem Somos</a></li>
+                <li><a href="https://kenzie.com.br/quem-somos" target="_blank">Sobre nós</a></li>
                 <li><a href="https://kenzie.com.br/curriculo" target="_blank">Formação</a></li>
                 <li><a href="https://kenzie.com.br/pagamento" target="_blank">Pagamento</a></li>
-                <li><a href="https://kenzie.com.br/parceiras" target="_blank">Para Empresas</a></li>
+                <li><a href="https://kenzie.com.br/parceiras" target="_blank">Empresas</a></li>
                 <li><a href="https://kenzie.com.br/faq" target="_blank">Dúvidas</a></li>
                 <li><a href="https://kenzie.com.br/blog/" target="_blank">Blog</a></li>
             </ul>
         </nav>
         <div>
-            <a href="https://inscricao.kenzie.com.br/?_gl=1*thxb9f*_ga*Njc5NDgzNzg1LjE2NzQzMjc4OTE.*_ga_7Z8VPLDHV8*MTY4MDAwOTIyNS43LjEuMTY4MDAxMDE2OC42MC4wLjA." target="_blank">
+            <a href="https://inscricao.kenzie.com.br/?_gl=1*thxb9f*_ga*Njc5NDgzNzg1LjE2NzQzMjc4OTE.*_ga_7Z8VPLDHV8*MTY4MDAwOTIyNS43LjEuMTY4MDAxMDE2OC42MC4wLjA." target="_blank">                
                 QUERO SER PROGRAMADOR(A)
                 <svg width="56" height="16" viewBox="0 0 56 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M55.2765 8.42196C55.667 8.03143 55.667 7.39827 55.2765 7.00774L48.9125 0.643781C48.522 0.253257 47.8888 0.253257 47.4983 0.643781C47.1078 1.03431 47.1078 1.66747 47.4983 2.05799L53.1551 7.71485L47.4983 13.3717C47.1078 13.7622 47.1078 14.3954 47.4983 14.7859C47.8888 15.1764 48.522 15.1764 48.9125 14.7859L55.2765 8.42196ZM0.388794 8.71484L54.5694 8.71485L54.5694 6.71485L0.388794 6.71484L0.388794 8.71484Z" fill="white"></path></svg>
             </a>
@@ -77,17 +77,19 @@
         </div>
     </main>
 
-    <footer style="margin: auto 400px; padding: 10px; text-align: justify; border: 5px solid rgba(0, 0, 0, .4);">
-        <h2>Gostaria de Receber Nossas Noticias em Primeira Mão?</h2><br>
-        <p>Inscreva-se em nossa newsletter para receber as últimas notícias e atualizações</p>
-        <br>
-        <form class="newsletter">
-            <label for="email">Email</label>
-            <input class="email" type="text" name="email" placeholder="Digite seu email aqui" required>
-            <button type="submit"> Cadastrar </button>
-        </form>
+    <footer>
+        <div class="border"></div>
+        <div class="newsletter">
+            <h2>Gostaria de Receber Nossas Noticias em Primeira Mão?</h2><br>
+            <p>Inscreva-se em nossa newsletter para receber as últimas notícias e atualizações</p>
+            <br>
+            <form>
+                <label for="email">Email</label>
+                <input class="email" type="text" name="email" placeholder="Digite seu email aqui" required>
+                <button type="submit"> Cadastrar </button>
+            </form>
+        </div>
     </footer>
-    
     <script src="./script.js"></script>
 </body>
 </html>

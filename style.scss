@@ -1,43 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
 
 * {
     list-style: none;
     text-decoration: none;
-    color: black;
-    font-family: 'Roboto';
+    color: white;
+    font-family: "Roboto";
     box-sizing: content-box;
     margin: 0;
     padding: 0;
 }
+.logo {
+    cursor: pointer;
+}
 body {
     height: 100vh;
     width: 100vw;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    background-color: #0d1117;
 }
 header {
-    background-color: white;
-    display: flex; 
+    background-color: #161b22;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100px;
     width: 100vw;
     position: fixed;
     font-size: 14px;
-    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 4px -2px rgba(22, 27, 34, 0.759);
     nav {
-        ul li{
+        ul li {
             text-align: center;
             font-size: 16px;
             margin: 23px;
             display: inline-block;
             width: 80px;
+            &::after {
+                content: "";
+                width: 0;
+                height: 2px;
+                background: linear-gradient(45deg, #131475 0, #2a0b70 25%, #38006b 50%, #430065 75%, #4c005f 100%);
+                margin: auto;
+                display: block;
+            }
+            &:hover:after {
+                width: 100%;
+                transition: width 0.2s linear;
+            }
         }
     }
     img {
         margin: 20px;
+        width: 200px;
     }
     div {
-        background-color: blue;
+        background-color: #b758ff;
         width: 300px;
         height: 100px;
         cursor: pointer;
@@ -50,31 +67,81 @@ header {
             color: white;
             font-size: 18px;
             text-align: left;
-            font-family: 'Montserrat';
+            font-family: "Montserrat";
             font-weight: 700;
+        }
+        &:hover {
+            background-color: #a431fc;
+            box-shadow: inset 3px 3px 6px 4px #0000007c;
         }
     }
 }
 main {
     padding: 120px 30px 30px 20px;
+    h1 {
+        color: #aa00ff;
+        font-size: 48px;
+        text-transform: uppercase;
+        margin: 10px 0 0 60px;
+    }
     div {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         margin: 50px 30px 10px 30px;
-        article{
+        article {
+            margin: 5px;
             width: 400px;
             height: 300px;
             border-radius: 10px;
-            padding: 10px;
-            border: 1px solid rgba(0, 0, 0, .3);
-            p{
+            padding: 20px;
+            border: 5px solid #161b22;
+            p {
                 padding: 5px;
             }
-        } 
+        }
         h2 {
-            color: blue;
+            color: #aa00ff;
         }
     }
 }
+footer {
+    display: flex;
+    justify-content: center;
+}
+.newsletter {
+    position: absolute;
+    width: 650px;
+    height: 120px;
+    padding: 15px;
+    margin-top: 17px;
+    padding-left: 40px;
+    border-radius: 10px;
+    background-color: #161b22;
+}
+.border {
+    position: fixed;
+    width: 730px;
+    height: 180px;
+    border-radius: 15px;
+    overflow: hidden;
+    &::before {
+        content: '';
+        position: absolute;
+        width: 150%;
+        height: 150%;
+        background: conic-gradient(#9c00ff, #9300ff,#6900ff,#6400ff,#6000ff,#9c00ff);
+        left: -25%;
+        top: -25%;
+        animation: spin 5s ease-in infinite;
+    }
+}
 
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
