@@ -130,6 +130,7 @@ footer {
 }
 .border::before {
   content: "";
+  position: absolute;
   width: 150%;
   height: 150%;
   background: conic-gradient(#9c00ff, #9300ff, #6900ff, #6400ff, #6000ff, #9c00ff);
