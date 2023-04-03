@@ -122,6 +122,7 @@ footer {
 }
 
 .border {
+  position: absolute;
   width: 730px;
   height: 180px;
   border-radius: 15px;
