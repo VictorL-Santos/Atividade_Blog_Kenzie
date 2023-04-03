@@ -122,7 +122,6 @@ footer {
 }
 
 .border {
-  position: absolute;
   width: 730px;
   height: 180px;
   border-radius: 15px;
@@ -130,11 +129,11 @@ footer {
 }
 .border::before {
   content: "";
-  position: absolute;
   width: 150%;
   height: 150%;
   background: conic-gradient(#9c00ff, #9300ff, #6900ff, #6400ff, #6000ff, #9c00ff);
   left: -25%;
+  top: -25%;
   animation: spin 5s ease-in infinite;
 }
 
