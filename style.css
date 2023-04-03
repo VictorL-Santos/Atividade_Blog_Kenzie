@@ -52,7 +52,8 @@ header nav ul li:hover:after {
 }
 header img {
   margin: 20px;
-  width: 200px;
+  width: 100px;
+  height: 100px;
 }
 header div {
   background-color: #b758ff;
