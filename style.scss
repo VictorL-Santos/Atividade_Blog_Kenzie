@@ -11,6 +11,8 @@
 }
 .logo {
     cursor: pointer;
+    padding: 20px;
+    height: 200px;
 }
 body {
     height: 100vh;
@@ -48,11 +50,6 @@ header {
                 transition: width 0.2s linear;
             }
         }
-    }
-    img {
-        margin: 20px;
-        width: 100px;
-        height: 100px;
     }
     div {
         background-color: #b758ff;
