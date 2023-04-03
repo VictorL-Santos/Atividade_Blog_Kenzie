@@ -11,6 +11,8 @@
 
 .logo {
   cursor: pointer;
+  padding: 20px;
+  height: 200px;
 }
 
 body {
@@ -49,11 +51,6 @@ header nav ul li::after {
 header nav ul li:hover:after {
   width: 100%;
   transition: width 0.2s linear;
-}
-header img {
-  margin: 20px;
-  width: 100px;
-  height: 100px;
 }
 header div {
   background-color: #b758ff;
